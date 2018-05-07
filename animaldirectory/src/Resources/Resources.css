@@ -1,0 +1,189 @@
+
+#content {
+    position: absolute;
+    width: 900px;
+    height: 680px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* border: black 1px solid; */
+    left: 15%;
+    overflow-y: scroll;
+}
+
+#bigdiv:hover{
+    margin-top: 5px;
+}
+#bigword:hover{
+    background-color:#B3A125;
+}
+
+#bigdiv img {
+    width: 100%;
+    height: 420px;
+    border-radius: 15px 15px 0px 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#bigdiv {
+    float: left;
+    height: 520px;
+    width: 500px;
+    /* border: black 1px solid; */
+    border-radius: 15px;
+    margin: 10px;
+}
+
+#bigword {
+    position: relative;
+    /* border: black 1px solid; */
+    margin: 0px;
+    height: 100px;
+    width: 500px;
+    top: -10px;
+    border-radius: 0px 0px 15px 15px;
+    background-color: #3B4CCA;
+}
+
+#bigword h1 {
+    /* text-align:left; */
+    margin-top: 0px;
+    margin-bottom: 1px;
+    margin-left: 5px;
+    /* border: black 1px solid; */
+    color: white;
+    font-size: 25px;
+}
+
+#bigword p {
+    /* border: black 1px solid; */
+    margin-top: 0px;
+    font-size: 14px;
+}
+#smalldiv:hover{
+    margin-top: 10px;
+}
+#smallword:hover{
+    background-color:#B3A125;
+}
+
+#smalldiv {
+    float: left;
+    height: 250px;
+    width: 350px;
+    /* border: black 1px solid; */
+    border-radius: 15px;
+    margin: 13px;
+}
+
+#smalldiv img {
+    width: 100%;
+    height: 190px;
+    border-radius: 15px 15px 0px 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#smallword {
+    position: relative;
+    /* border: black 1px solid; */
+    margin: 0px;
+    height: 65px;
+    width: 350px;
+    bottom: 5px;
+    border-radius: 0px 0px 15px 15px;
+    background-color: #3B4CCA;
+}
+
+#smallword h1 {
+    /* text-align:left; */
+    margin-top: 0px;
+    margin-left: 5px;
+    margin-bottom: 1px;
+    /* border: black 1px solid; */
+    color: white;
+    font-size: 16px;
+}
+
+#smallword p {
+    /* border: black 1px solid; */
+    margin-top: 0px;
+    margin-left: 2px;
+    margin-right: 2px;
+    font-size: 9px;
+}
+
+#Resimg{
+    width:100%;
+    height: 700px;
+    margin:0;
+}
+
+#hbutton{
+  background-color: orange;
+  width: 120px;
+  height: 80px;
+  top: 690px;
+  left: 100px;
+  border: none;
+  color: black;
+  margin-right: 2px;
+}
+
+#ASPCA{
+    background-color: orange;
+    width: 120px;
+    height: 80px;
+    top: 690px;
+    left: 225px;
+    border: none;
+    color: black;
+}
+
+#header{
+    position: absolute;
+    top: 250px; 
+    font-size: 70px; 
+    left: 70px; 
+    width: 300px; 
+}
+
+#buttonbar{
+    position: absolute;
+    background-color: slategrey;
+    height: 130px;
+    border:none;
+    width: 100%;
+    top: 750px;
+
+}
+
+.resbuttons{
+   float:left;
+    width: 170px;
+    height: 110px;
+    border-right: 1px white solid;
+    color: black;
+    padding: 5px;
+    margin: 3px;;
+    text-align: center;
+    line-height: 60px;
+    font-size: 18px;
+}
+
+.resbuttons:hover{
+    background-color: orange;
+    color:white;
+}
+
+#subhead{
+    position: absolute;
+    top: 450px; 
+    font-size: 16px; 
+    left: 70px; 
+    width: 300px; 
+}
+
+#news{
+    font-size: 40px;
+}
